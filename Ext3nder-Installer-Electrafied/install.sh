@@ -1,4 +1,7 @@
+chmod +x /Ext3nder-Installer-Electrafied/*
 cp /Ext3nder-Installer-Electrafied/ldid /bootstrap/bin/
+cp /Ext3nder-Installer-Electrafied/zip /bootstrap/bin/
+cp /Ext3nder-Installer-Electrafied/unzip /bootstrap/bin/
 chmod 755 /bootstrap/bin/ldid
 echo "This install script is ONLY for Electra betas"
 ln -s /Ext3nder-Installer-Electrafied/Library/MobileSubstrate/DynamicLibraries/Ext3nder_SpringBoard.dylib /Ext3nder-Installer-Electrafied/Library/Switches/Ext3nderSwitch.bundle/
@@ -27,8 +30,8 @@ chmod +x /Applications/Ext3nder.app/Sys.dylib
 chmod +x /Applications/Ext3nder.app/WebUpload.bundle/libWebServer.dylib
 rm /bootstrap/bin/ldid
 echo "You should be good!"
-
 echo "You may need to respring!"
+echo "You may need to run uicache!"
 exit
 
 
