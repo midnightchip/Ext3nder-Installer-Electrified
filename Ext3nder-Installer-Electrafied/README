@@ -1,0 +1,5 @@
+README This folder NEEDs to be named Ext3nder-Installer-Electrafied and it NEEDS to be put on the root of 
+your phone (so /Ext3nder-Installer-Electrafied) I recommend just extracting this onto the root directory and 
+you will be fine. make sure to run chmod +x ./install.sh before running, and to install all you need to do 
+is ./install.sh. 
+--MidnightChips
